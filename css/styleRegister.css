@@ -1,0 +1,130 @@
+body {
+    background-image: url(../img/food.png);
+}
+
+/*header*/
+header {
+    background-color: #34BE82;
+    padding: 10px;
+    font-size: 18px;
+}
+
+nav a:nth-child(1){
+    font-weight: bold;
+}
+
+nav a:not(:last-child) {
+    color: white !important;
+}
+
+.gif-pet{
+    position: absolute; 
+    top: 0; 
+    left: 0;
+    width:155px;
+}
+
+/*main*/
+.title{
+    text-align: center;
+    margin: 25px;
+}
+
+.title h2 {
+    font-weight: 300;
+    font-size: 66px;
+}
+
+input {
+    margin-bottom: 20px;
+}
+
+#btnSave{
+    padding: 8px;
+}
+
+.search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+#btnSearch{
+    display: none;
+}
+
+#number-pets{
+    font-weight: bold;
+}
+
+.tbl{
+    background-color: #C3EDEA;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+
+/*utilities*/
+.selected {
+    border: 2px solid black;
+    background-color: #FFF7AE;
+}
+
+.sep{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cake{
+    margin-right: 10px;
+}
+
+/*footer*/
+footer {
+    color: white;
+}
+
+.footer {
+    box-shadow: 0px 0px 10px 1px black;
+    background-color: #2F86A6;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items:stretch;
+    padding: 30px;
+}
+
+.direction {
+    border-right: 5px solid #F6B50F;
+    padding-right: 2%;
+    line-height: 25px;
+}
+
+.first strong{
+    line-height: 30px;
+}
+
+.pet_icon {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.icon {
+    margin-right: 8px;
+}
+
+.place {
+    margin-bottom: 10px;
+}
+
+.copyr{
+    font-size: 13px;
+}
+
+.place:hover {
+    opacity: 0.8;
+}
