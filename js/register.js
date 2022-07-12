@@ -42,7 +42,7 @@ function displayNumberOfPets(){
 
 function isValid(aPet){
     let valid = true;
-    if(aPet.name=="" || aPet.service==""){ //is empty?
+    if(aPet.name=="" || aPet.phone=="" || aPet.ownerName){ //is empty?
         valid = false;
     }
     return valid;
